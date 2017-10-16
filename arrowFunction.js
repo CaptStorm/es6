@@ -20,3 +20,13 @@ var fn = () => {
     return a + b;
 };
 console.log(fn());
+
+
+//timeout Function
+setTimeout(() => console.log("Ticking...."), 1000);
+
+function fn() {
+  console.log(this);
+}
+fn();
+

@@ -9,3 +9,10 @@ output
 4456
 56490
 77453
+
+
+let a = [20, 90, 10, 33];
+let b = [32, 64, 67, ...a, 31];
+console.log(b);
+let c = b.sort();
+console.log(c);

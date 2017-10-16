@@ -19,3 +19,15 @@ function sumUp(toAdd) {
     return result;
 };
 console.log(sumUp(number));
+
+
+
+
+let numbers = [56490, 33, 211, 4456, 77453, 33];
+
+let a = numbers[1];
+let b = numbers[2];
+let c = numbers[5];
+
+console.log(b == a); //false
+console.log(c === a); //true
